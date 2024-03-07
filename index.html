@@ -1,33 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ayush Agarwal</title>
-  <link rel="stylesheet" href="style.css">
-  <script type = 'text/javascript' src="scripts.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AYUSH AGARWAL</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body >
-  <div class="navbar" >
-    <div class ="name"><h3>AYUSH AGARWAL</h3></div>
-    <ul class="navbar_center_container">
-      <li class="nav_menu"><a class="nav_bar_center_content" href="#ux_ui_section">UX/UI</a></li>
-      <li class="nav_menu"><a class="nav_bar_center_content" href="#front_end_section">FRONT-END DEVELOPMENT</a></li>
-      <li class="nav_menu"><a class="nav_bar_center_content" href="#back_end_section">BACK-END DEVELOPMENT</a></li>
-      <li class="nav_menu"><a class="nav_bar_center_content" href="#contact">CONTACT</a></li>
-    </ul>
-  </div>
-  <div id='ux_ui_section' class="ux_ui_post">
-    <a class="ux_ui_content" href="http://" target="_blank" rel="noopener noreferrer">ARE YOU LOOKING FOR UX DESIGNER ?</a>
-  </div>
-  <div id='front_end_section' class="front_end scrollFade">
-    <a class="front_end_content" href="http://" target="_blank" rel="noopener noreferrer">ARE YOU LOOKING FOR FRONT-END DEVELOPER ?</a>
-  </div>
-  <div id='back_end_section' class="back_end scrollFade">
-    <a href="" class="back_end_content">ARE YOU LOOKING FOR BACK-END DEVELOPER ?</a>
-  </div>
-  <div id='contact' class="contact">
-    <h1>CONTACT ME AT</h1>
-  </div>
+<body>
+    <header>
+        <nav>
+            <div class="title">AYUSH AGARWAL</div>
+            <div class="menu_container">
+                <ul>
+                    <li><a href="http://" target="_blank" rel="noopener noreferrer">Home</a></li> 
+                    <li><a href="http://" target="_blank" rel="noopener noreferrer">About</a></li>
+                    <li><a href="http://" target="_blank" rel="noopener noreferrer">Services</a></li>
+                    <li><a href="http://" target="_blank" rel="noopener noreferrer">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first_section">
+            <div class="left_section">
+                Hi, My name is <span class="purple">Ayush</span>
+                <div>And I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="right_section">
+                <img src="images\avatar_1.png" alt="">
+            </div>
+        </section>
+    <hr>
+        <section class="second_section">
+            <h1>Work Experience</h1>
+            <span class="text-grey">What have I done</span>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="images\html.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Experienced HTML developer skilled in transforming design visions into high-quality, responsive websites. Detail-oriented and committed to clean, semantic coding for optimal performance. Stay updated on industry trends to deliver visually appealing and accessible web solutions. Elevate your digital presence with my expertise in HTML development.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="images\frontend_1.png" alt="">
+                    <div class="vertical-title">
+                        Front-end Developer 
+                    </div>
+                    <div class="vertical-desc">
+                        Frontend Developer dedicated to crafting visually stunning and user-friendly websites. Proficient in HTML, CSS, and JavaScript, I specialize in translating design concepts into interactive and responsive interfaces. With an eye for design aesthetics and a commitment to optimal user experiences, I create engaging websites that captivate and retain visitors. Stay ahead of industry trends and technologies, I bring a blend of creativity and technical skill to elevate your digital presence. Let's collaborate to bring your web vision to life through effective frontend development.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="images\django.png" alt="">
+                    <div class="vertical-title">
+                        django Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Django Developer with a knack for turning ideas into dynamic web applications. Proficient in leveraging Django's powerful framework to create robust, scalable, and secure solutions. Skilled in backend development, database management, and crafting seamless user experiences. Passionate about writing clean, efficient code and staying abreast of the latest industry practices. Let me bring your digital projects to life with my Django development expertise.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                Ayush's Developer Portfolio
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="http://" target="_blank" rel="noopener noreferrer">Home</a></li>
+                    <li><a href="http://" target="_blank" rel="noopener noreferrer">About</a></li>
+                    <li><a href="http://" target="_blank" rel="noopener noreferrer">Contact</a></li>
+                    <li><a href="http://" target="_blank" rel="noopener noreferrer">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['UX Designer.','Graphic Designer.', 'Web Developer.'],
+          typeSpeed: 50,
+        });
+    </script>
 </body>
 </html>
