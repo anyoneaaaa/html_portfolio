@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: rgb(5, 5, 46);
     color: white;
     font-family: "Poppins", sans-serif;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 80px;
     background-color: rgb(14, 14, 84);
-    
+
 }
 
-.title{
+.title {
     font-size: 1.5rem;
 }
 
@@ -34,15 +34,16 @@ nav ul li {
     margin: 0 23px;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: white;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: rgb(147, 147, 246);
 }
 
-.first_section{
+.first_section {
     display: flex;
     justify-content: space-around;
     margin: 80px 0;
@@ -50,41 +51,41 @@ nav ul li a:hover{
 
 }
 
-.first_section > div{
+.first_section>div {
     width: 30%;
 }
 
-.left_section{
+.left_section {
     font-size: 2.5rem;
 }
 
-#element{
+#element {
     color: rgb(141, 42, 233);
 }
 
-.right_section img{
+.right_section img {
     width: 80%;
     margin: 50px;
 }
 
-main hr{
+main hr {
     border: 0;
     background: rgb(47, 47, 78);
     height: 1px;
     margin: 80px 30px;
 }
 
-.second_section{
+.second_section {
     max-width: 80vw;
     margin: auto;
     height: 80vh;
 }
 
-.second_section h1{
+.second_section h1 {
     font-size: 1.5rem;
 }
 
-.second_section .box{
+.second_section .box {
     background: white;
     width: 80vw;
     height: 2px;
@@ -92,65 +93,65 @@ main hr{
     display: flex;
 }
 
-.second_section .vertical{
+.second_section .vertical {
     height: 70px;
     width: 1px;
     background-color: white;
-    margin: 0 200px;
+    margin: 0 120px;
 }
 
-.image-top{
+.image-top {
     width: 23px;
     position: relative;
     top: -25px;
     left: -9px;
 }
 
-footer{
+footer {
     background-color: rgb(21, 21, 83);
     height: 233px;
-   
+
 }
 
-.footer{
+.footer {
     display: flex;
     padding: 23px 122px;
     justify-content: space-evenly;
 
 }
 
-.footer ul{
+.footer ul {
     list-style: none;
 }
 
-.footer ul li a{
+.footer ul li a {
     color: white;
     text-decoration: none;
 }
 
-.footer > div{
+.footer>div {
     width: 240px;
 }
 
-.purple{
+.purple {
     color: rgb(141, 42, 233);
 }
 
-.text-grey{
+.text-grey {
     color: grey;
 }
 
-.vertical-title{
+.vertical-title {
     position: relative;
     top: 70px;
     width: 150px;
 
 }
 
-.vertical-desc{
-position: relative;
-top: 75px;
-color: grey;
-width: 150px;
-font-size: 9px;
+.vertical-desc {
+    position: relative;
+    top: 75px;
+    color: grey;
+    width: 150px;
+    font-size: 9px;
 }
